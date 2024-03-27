@@ -1,10 +1,12 @@
-﻿Imports System.Reflection.Emit
+﻿Public Class Form2
+    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-Public Class Form1
+    End Sub
+
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Hide()
-        Dim f2 As New Form2
-        f2.ShowDialog()
+        Dim f1 As New Form1
+        f1.ShowDialog()
         Me.Show()
     End Sub
 
