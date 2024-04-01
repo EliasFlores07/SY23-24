@@ -33,7 +33,7 @@ Partial Class Form3
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(241, 376)
+        Me.TextBox1.Location = New System.Drawing.Point(271, 12)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(252, 22)
         Me.TextBox1.TabIndex = 5
