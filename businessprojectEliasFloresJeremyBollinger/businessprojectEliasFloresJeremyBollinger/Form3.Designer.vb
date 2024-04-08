@@ -61,6 +61,12 @@ Partial Class Form3
         Me.ECUmastersPictureBox = New System.Windows.Forms.PictureBox()
         Me.LifeRacingPictureBox = New System.Windows.Forms.PictureBox()
         Me.MotecPictureBox = New System.Windows.Forms.PictureBox()
+        Me.TextBox19 = New System.Windows.Forms.TextBox()
+        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.TextBox21 = New System.Windows.Forms.TextBox()
+        Me.TextBox22 = New System.Windows.Forms.TextBox()
+        Me.TextBox23 = New System.Windows.Forms.TextBox()
+        Me.TextBox24 = New System.Windows.Forms.TextBox()
         Me.Transmission_Selector1 = New businessprojectEliasFloresJeremyBollinger.Transmission_Selector()
         Me.EcU_Selector1 = New businessprojectEliasFloresJeremyBollinger.ECU_Selector()
         Me.Roller_Selector1 = New businessprojectEliasFloresJeremyBollinger.Roller_Selector()
@@ -462,6 +468,67 @@ Partial Class Form3
         Me.MotecPictureBox.TabIndex = 38
         Me.MotecPictureBox.TabStop = False
         '
+        'TextBox19
+        '
+        Me.TextBox19.Font = New System.Drawing.Font("OCR A Extended", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox19.Location = New System.Drawing.Point(15, 729)
+        Me.TextBox19.Name = "TextBox19"
+        Me.TextBox19.Size = New System.Drawing.Size(117, 21)
+        Me.TextBox19.TabIndex = 49
+        Me.TextBox19.Text = "Parts Total:"
+        '
+        'TextBox20
+        '
+        Me.TextBox20.Font = New System.Drawing.Font("OCR A Extended", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox20.Location = New System.Drawing.Point(267, 729)
+        Me.TextBox20.Name = "TextBox20"
+        Me.TextBox20.Size = New System.Drawing.Size(117, 21)
+        Me.TextBox20.TabIndex = 50
+        Me.TextBox20.Text = "Labor Total:"
+        '
+        'TextBox21
+        '
+        Me.TextBox21.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.TextBox21.Font = New System.Drawing.Font("OCR A Extended", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox21.ForeColor = System.Drawing.Color.Black
+        Me.TextBox21.Location = New System.Drawing.Point(136, 729)
+        Me.TextBox21.Name = "TextBox21"
+        Me.TextBox21.Size = New System.Drawing.Size(77, 21)
+        Me.TextBox21.TabIndex = 51
+        Me.TextBox21.Text = "$340,000"
+        '
+        'TextBox22
+        '
+        Me.TextBox22.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.TextBox22.Font = New System.Drawing.Font("OCR A Extended", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox22.ForeColor = System.Drawing.Color.Black
+        Me.TextBox22.Location = New System.Drawing.Point(390, 729)
+        Me.TextBox22.Name = "TextBox22"
+        Me.TextBox22.Size = New System.Drawing.Size(77, 21)
+        Me.TextBox22.TabIndex = 52
+        Me.TextBox22.Text = "$360,000"
+        '
+        'TextBox23
+        '
+        Me.TextBox23.BackColor = System.Drawing.SystemColors.Window
+        Me.TextBox23.Font = New System.Drawing.Font("OCR A Extended", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox23.Location = New System.Drawing.Point(487, 729)
+        Me.TextBox23.Name = "TextBox23"
+        Me.TextBox23.Size = New System.Drawing.Size(117, 21)
+        Me.TextBox23.TabIndex = 53
+        Me.TextBox23.Text = "Truck Total:"
+        '
+        'TextBox24
+        '
+        Me.TextBox24.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.TextBox24.Font = New System.Drawing.Font("OCR A Extended", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox24.ForeColor = System.Drawing.Color.Black
+        Me.TextBox24.Location = New System.Drawing.Point(610, 729)
+        Me.TextBox24.Name = "TextBox24"
+        Me.TextBox24.Size = New System.Drawing.Size(77, 21)
+        Me.TextBox24.TabIndex = 54
+        Me.TextBox24.Text = "$700,000"
+        '
         'Transmission_Selector1
         '
         Me.Transmission_Selector1.BackColor = System.Drawing.SystemColors.Control
@@ -497,7 +564,13 @@ Partial Class Form3
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.ClientSize = New System.Drawing.Size(751, 781)
+        Me.ClientSize = New System.Drawing.Size(751, 789)
+        Me.Controls.Add(Me.TextBox24)
+        Me.Controls.Add(Me.TextBox23)
+        Me.Controls.Add(Me.TextBox22)
+        Me.Controls.Add(Me.TextBox21)
+        Me.Controls.Add(Me.TextBox20)
+        Me.Controls.Add(Me.TextBox19)
         Me.Controls.Add(Me.Transmission_Selector1)
         Me.Controls.Add(Me.EcU_Selector1)
         Me.Controls.Add(Me.Roller_Selector1)
@@ -541,7 +614,7 @@ Partial Class Form3
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.PictureBox4)
         Me.Name = "Form3"
-        Me.Text = "Form3"
+        Me.Text = "e"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -606,4 +679,10 @@ Partial Class Form3
     Friend WithEvents Roller_Selector1 As Roller_Selector
     Friend WithEvents EcU_Selector1 As ECU_Selector
     Friend WithEvents Transmission_Selector1 As Transmission_Selector
+    Friend WithEvents TextBox19 As TextBox
+    Friend WithEvents TextBox20 As TextBox
+    Friend WithEvents TextBox21 As TextBox
+    Friend WithEvents TextBox22 As TextBox
+    Friend WithEvents TextBox23 As TextBox
+    Friend WithEvents TextBox24 As TextBox
 End Class
